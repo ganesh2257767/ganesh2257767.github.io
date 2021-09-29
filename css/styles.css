@@ -191,16 +191,6 @@ ul ol {
   margin-bottom: 0;
 }
 
-/* dt {
-  font-weight: 700;
-}
-
-dd {
-  margin-bottom: 0.5rem;
-  margin-left: 0;
-}
- */
-
  dl {
   width: 100%;
   overflow: hidden;
@@ -11530,4 +11520,8 @@ html {
 .edu1 {
   text-align: center;
   font-size: 1.5rem;
+}
+
+.bg-blue {
+  background-color: #8080FF;
 }
