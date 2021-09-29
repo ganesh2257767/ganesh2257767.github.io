@@ -191,13 +191,36 @@ ul ol {
   margin-bottom: 0;
 }
 
-dt {
+/* dt {
   font-weight: 700;
 }
 
 dd {
   margin-bottom: 0.5rem;
   margin-left: 0;
+}
+ */
+
+ dl {
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+dt {
+  float: left;
+  width: 25%;
+  padding: 0;
+  margin: 0;
+  font-size: 1.3rem;
+  font-style: bold;
+}
+dd {
+  float: left;
+  width: 75%;
+  padding: 0;
+  margin: 0;
+  font-size: 1.1rem;
 }
 
 blockquote {
@@ -11429,7 +11452,7 @@ html {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 15rem;
+  width: 25rem;
 }
 
 @media (min-width: 992px) {
@@ -11493,4 +11516,18 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+
+.intro {
+  margin-bottom: 40px;
+}
+
+.edu {
+  text-align: center;
+}
+
+
+.edu1 {
+  text-align: center;
+  font-size: 1.5rem;
 }
