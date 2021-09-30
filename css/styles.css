@@ -11522,6 +11522,10 @@ html {
   font-size: 1.5rem;
 }
 
-.bg-blue {
+.bg-projects {
   background-color: #8080FF;
+}
+
+.bg-about {
+  background-color: #0984e3;
 }
